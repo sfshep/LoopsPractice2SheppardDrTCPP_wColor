@@ -121,9 +121,12 @@ int main()
    num = validateDouble(num);
 
    //process
+   // - original:  for (int i = 1; i <= num; i++)
    for (int i = 1; i <= num; i++)
    {
-     cout << i << endl;
+  // a number is even if  (i % 2) == 0
+  if ((i % 2) == 0)// test
+     cout << i << " even" << endl;
    }
 
 
