@@ -80,6 +80,11 @@ int main()
       cout << "\nPlease enter a numerical grade (-1 to exit): ";
       grade = validateDouble(grade); //accept grade and validate the data type
       //if condition test
+      if(grade == -1)
+      {
+        cout << "\nHasta la vista, Baby!" << endl;
+      }
+      
       if(grade >= 90.0)
       {
         cout << "\nThat's an A!" << endl; 
@@ -103,6 +108,28 @@ int main()
       else {cout << "\nInvalid input." << endl;}
 
    }while(grade != -1); //end do 
-   
+   //Dr_T Challenge 1
+   //1. Accept input into a double (num)
+   //2. num is a stopping point
+   //3. Show all even numbers from 1...num
+   //4. Append the word " even" to the end of each number
+   //5.Show each number on a line of its own  
+
+   //input
+   double num = 0.0;
+   cout << "Please enter an endpoint: :";
+   num = validateDouble(num);
+
+   //process
+   for (int i = 1; i <= num; i++)
+   {
+     cout << i << endl;
+   }
+
+
+   //output
+
+
+
     return 0;
 }
