@@ -7,7 +7,7 @@
 	and/or legitimate user error. 
 	//Try and Catch blocks are used in error checking
 	Teacher: Dr. Tyson McMillan, Ph.D.  
-  STUDENT (McMillanite):
+  STUDENT (McMillanite): Loops Practe 2 - 1-29-2020
 */
 #include <cstdlib>  // Provides EXIT_SUCCESS
 #include <iostream>  // Provides cout, cerr, endl
