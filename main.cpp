@@ -128,9 +128,17 @@ int main()
   if ((i % 2) == 0)// test
      cout << i << " even" << endl;
    }
+  
+  //Dr_T Challenge 2
+  /*
+  1. accept char input of a letter grade (A-F) OR || (a-f)
+  2. For each letter grade, output the corresponding percent value range. i.e. 'A' || 'a'
+  3.  E || e show an exit message
+  4. Loop until E && e to exit - DeMorgan's law!!!
+  5.  Bonus:  show each message in a color of it's own (See Dr_T's Fork Starter on Color for this environment )
+  */
 
-
-   //output
+   
 
 
 
